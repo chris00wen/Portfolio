@@ -1,0 +1,55 @@
+{
+  "World hunger form": {
+    "id": "25d1d035-f1e6-416e-acee-1b2ce8578d01",
+    "title": "World hunger form",
+    "framework": "CRAFT",
+    "values": {
+      "context": "work3",
+      "role": "me3",
+      "action": "solve world hunger",
+      "format": "test3",
+      "tone": "playful",
+      "constraints": "budget of one dollar",
+      "examples": []
+    }
+  },
+  "about you": {
+    "id": "3410df45-96de-4532-9d38-2e7c7b3b7ed4",
+    "title": "about you",
+    "framework": "TAP",
+    "values": {
+      "task": "Tell me about yourself",
+      "audience": "general",
+      "purpose": "to learn about what we are working with",
+      "examples": []
+    }
+  },
+  "Cust Feedback Report 0": {
+    "id": "4cbf9f38-3c7b-4026-b785-5eccb57898c5",
+    "title": "Cust Feedback Report 0",
+    "framework": "CRAFT",
+    "values": {
+      "context": "A summary of customer feedback collected over the last quarter.",
+      "role": "Senior Data Analyst",
+      "action": "Generate a report summarizing the feedback.",
+      "format": "Text report",
+      "tone": "Professional",
+      "constraints": "Must include at least three key insights from the feedback.",
+      "examples": "\n    "
+    }
+  },
+  "Project meeting": {
+    "id": "c8f645aa-f277-49e8-b50b-d71167ef3f4c",
+    "title": "Project meeting",
+    "framework": "CRAFT",
+    "values": {
+      "context": "Weekly team meeting on project progress. Topics discussed included: delayed product launch, marketing budget approval, and customer feedback on recent release.",
+      "role": "You are an executive assistant supporting the project manager.",
+      "action": "Summarize the meeting into 3–5 concise action items with responsible owners and due dates.",
+      "format": "Markdown bullet list, with bold owner names and italicized due dates.",
+      "tone": "Professional and concise.",
+      "constraints": "",
+      "examples": ""
+    }
+  }
+}

@@ -16,39 +16,40 @@ prompting workflows.
 
 ### Structured Prompt Frameworks
 
-Create prompts using reusable building blocks: - FrameworkSpec
-definitions\
-- Stepwise prompt construction\
+Create prompts using reusable building blocks: 
+- FrameworkSpec definitions
+- Stepwise prompt construction
 - Modular building patterns (CRAFT, TAP, custom workflows)
 
 ### Multi-Model Dispatching
 
-PBJ can transparently send prompts to: - OpenAI models\
-- Llama-cpp / local GGUF models\
-- Gemma\
-- Claude\
+PBJ can transparently send prompts to: 
+- OpenAI models
+- Llama-cpp / local GGUF models
+- Gemma
+- Claude
 - Any REST-based LLM endpoint
 
 ### Template Storage & Versioning
 
-PBJ stores prompts as JSON templates with: - Version control\
-- Optional RBAC-ready metadata\
-- Template types and categories\
+PBJ stores prompts as JSON templates with: 
+- Version control
+- Optional RBAC-ready metadata
+- Template types and categories
 - Reusable components (StepSpecs, FieldSpecs)
 
 ### Elegant Streamlit UI
 
--   Sidebar-based navigation\
--   Context-aware controls\
+-   Sidebar-based navigation
+-   Context-aware controls
 -   Template browsing and editing
 
 ### Planned Future Features
 
--   Adding more templates and LLM model support\
--   Prompt patterns suggestions\
--   User logins to persist Prompt catalogs, API keys\
--   Response analysis to reduce hallucinations\
--   Template export
+-   Adding more templates and LLM model support
+-   Prompt patterns suggestions
+-   User logins to persist Prompt catalogs, API keys
+-   Response analysis to reduce hallucinations
 
 ## 🚀 Getting Started
 
@@ -87,10 +88,11 @@ streamlit run src/pbj.py
 
 ## 🧠 Why PBJ?
 
-Modern LLM workflows demand: - Structure\
-- Consistency\
-- Versioning\
-- Clarity\
+Modern LLM workflows demand: 
+- Structure
+- Consistency
+- Versioning
+- Clarity
 - Multi-model flexibility
 
 PBJ gives you a unified system for all of that --- ideal for engineering
@@ -98,5 +100,5 @@ teams, analytics groups, or personal AI projects.
 
 ## 📬 Contact
 
-Questions or suggestions?\
+Questions or suggestions?
 Reach me on LinkedIn: https://www.linkedin.com/in/chris0wen
